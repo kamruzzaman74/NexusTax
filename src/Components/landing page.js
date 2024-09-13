@@ -3,9 +3,10 @@ import pic1 from '../photo/k.webp';
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-white">
+    <div className="relative min-h-screen flex flex-col lg:flex-row bg-white overflow-hidden">
+      
       {/* Left side - Heading and Description */}
-      <div className="w-full lg:w-1/2 p-6 sm:p-8 flex flex-col justify-center">
+      <div className="w-full lg:w-1/2 p-6 sm:p-8 flex flex-col justify-center lg:items-start">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 animate__animated animate__fadeInLeft">
           💼 Maximize Your Tax Returns, Simplify Your Finances 💵
         </h1>
@@ -21,7 +22,7 @@ const LandingPage = () => {
       </div>
 
       {/* Right side - Picture */}
-      <div className="w-full lg:w-1/2 relative overflow-hidden mt-6 lg:mt-0 animate__animated animate__fadeInRight">
+      <div className="w-full lg:w-1/2 relative overflow-hidden mt-6 lg:mt-0 flex items-center justify-center">
         <img
           src={pic1}
           alt="Australian Tax Agent"
