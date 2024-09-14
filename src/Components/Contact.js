@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="bg-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-16 sm:mb-24 lg:mb-32 mt-8 sm:mt-16 lg:mt-24">
           <h2 className="text-4xl font-extrabold text-gray-800 mb-6 animate__animated animate__fadeIn animate__delay-1s">
             Connect with Us
           </h2>
@@ -18,7 +18,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div className="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 animate__animated animate__fadeIn animate__delay-3s">
+          <div className="bg-gradient-to-r from-blue-100 to-gray-100 p-8 rounded-lg shadow-lg border border-gray-200 animate__animated animate__fadeIn animate__delay-3s">
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Get in Touch</h3>
             <div className="flex items-center mb-6">
               <FiPhone className="text-3xl text-blue-500 mr-4 animate__animated animate__fadeIn animate__delay-4s" />
@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
 
           {/* Engaging Content */}
-          <div className="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 animate__animated animate__fadeIn animate__delay-7s">
+          <div className="bg-gradient-to-r from-green-100 to-gray-100 p-8 rounded-lg shadow-lg border border-gray-200 animate__animated animate__fadeIn animate__delay-7s">
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Why Choose Us?</h3>
             <div className="mb-6 flex items-start">
               <FaGlobeAmericas className="text-3xl text-purple-500 mr-4 animate__animated animate__fadeIn animate__delay-8s" />
@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
 
         {/* Google Map */}
-        <div className="mt-12">
+        <div className="mt-16 lg:mt-24">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4 animate__animated animate__fadeIn animate__delay-11s">
             Our Location
           </h3>
