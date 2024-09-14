@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="bg-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16 sm:mb-24 lg:mb-32 mt-8 sm:mt-16 lg:mt-24">
+        <div className="text-center mb-16 sm:mb-24 lg:mb-32 mt-16 sm:mt-24 lg:mt-32"> {/* Increased top margin */}
           <h2 className="text-4xl font-extrabold text-gray-800 mb-6 animate__animated animate__fadeIn animate__delay-1s">
             Connect with Us
           </h2>
