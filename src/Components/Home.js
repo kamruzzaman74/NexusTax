@@ -9,8 +9,9 @@ import TaxAgentComponent from './TaxAgentComponent';
 import Footer from './Footer';
 import WhyChooseUs from './WhyChooseUs';
 import Discount from './Discount';
-import Extra from './Extra';
+
 import Mistakes from './Mistakes';
+import Extra from './Extra';
 
 function Home() {
   return (

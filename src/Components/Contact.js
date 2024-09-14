@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center mb-6">
               <FiMail className="text-3xl text-green-500 mr-4 animate__animated animate__fadeIn animate__delay-5s" />
-              <p className="text-lg text-gray-700">📧 contact@nexus.com</p>
+              <p className="text-lg text-gray-700">📧 kt@nexustaxaccounting.com.au</p>
             </div>
             <div className="flex items-center">
               <FiMapPin className="text-3xl text-red-500 mr-4 animate__animated animate__fadeIn animate__delay-6s" />
