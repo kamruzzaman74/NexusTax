@@ -1,0 +1,87 @@
+/* General container styles */
+.tcall-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  /* Card styles */
+  .tax-card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s, opacity 0.6s;
+  }
+  
+  .tax-title {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .tax-message {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .emoji {
+    font-size: 3rem;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  
+  /* Animation for step transitions */
+  .step-0, .step-1, .step-2, .step-3 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Satisfaction animation */
+  .satisfaction-container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .satisfaction-title {
+    font-size: 2rem;
+    color: #28a745;
+    font-weight: bold;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .satisfaction-message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 16px;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

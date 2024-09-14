@@ -12,6 +12,7 @@ import Discount from './Discount';
 import Mistakes from './Mistakes';
 import Extra from './Extra';
 import Annimation from './Annimation';
+import Tcall from './Tcall';
 
 function Home() {
   return (
@@ -38,6 +39,7 @@ function Home() {
       <Extra />
       <Mistakes />
       <Annimation />
+      <Tcall/>
       <Footer />
     </>
   );

@@ -1,0 +1,96 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white, #f0f9ff);
+  }
+  
+  .tax-assistance {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  .step-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  
+  /* Trigger animation when component mounts */
+  .animate-step {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .iconStyle {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #007acc;
+  }
+  
+  .step-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .step-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .next-button {
+    background-color: #007acc;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #005f99;
+  }
+  
+  .call-button {
+    background-color: #28a745;
+  }
+  
+  .dots-container {
+    margin-top: 16px;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #007acc;
+  }
+  
